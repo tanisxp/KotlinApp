@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data />
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="6dp"
+        android:strokeColor="@color/cardStroke"
+        android:strokeWidth="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textInfinitive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="go"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/verbInfinitive"/>
+
+            <TextView
+                android:id="@+id/textSimplePast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="went"
+                android:textSize="18sp"
+                android:textColor="@color/verbPast"/>
+
+            <TextView
+                android:id="@+id/textPastParticiple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gone"
+                android:textSize="18sp"
+                android:textColor="@color/verbParticiple"/>
+
+            <TextView
+                android:id="@+id/textTranslation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ir"
+                android:textSize="16sp"
+                android:textColor="@color/verbTranslation"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>
